@@ -1,15 +1,17 @@
-#  Personal Finance Tracker (Streamlit App)
+# 💸 Personal Finance Tracker
 
-This is a web-based Personal Finance Tracker built using **Python**, **Streamlit**, and **Pandas**. It allows users to add income and expense transactions, store them in a CSV file, and visualize spending trends over time.
+A modern, secure, and user-friendly web application built with **Streamlit** that helps users track their income, expenses, and savings. Supports multi-user login, cloud database (MongoDB Atlas), monthly budget alerts, and visual analytics.
 
 ---
 
 ## 🚀 Features
 
-- ✅ Add income or expense transactions with date, category, amount, and description
-- 📊 View a detailed transaction table
-- 📈 Visualize income and expense trends using interactive charts
-- 💾 Data stored locally in `finance_data.csv.csv`
-- ⚙️ Easy-to-use and fully responsive Streamlit interface
+- 🔐 **User Authentication (Login & Sign-up)**
+- 📥 **Add Transactions** with category, amount, description, and date
+- 📅 **Filter by Month** and search by keyword in description
+- 📊 **Visual Summary**: Line chart & pie chart for income/expenses
+- 💰 **Monthly Budget Monitoring** with alerts
+- 🧾 **Download filtered data** as CSV
+- ☁️ **MongoDB Atlas backend** with secure credential management
 
-
+---
